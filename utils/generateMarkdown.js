@@ -72,6 +72,8 @@ Copyright (c) ${new Date().getFullYear()} ${data.author}
 Licences for the original source code are available at:`;
 }
 
+}
+
 // TODO: Create a function to generate markdown for README file 
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -84,8 +86,6 @@ function generateMarkdown(data) {
   ${data.tests}
   ${data.questions}
   `;
-}
-
 }
 
 module.exports = generateMarkdown;

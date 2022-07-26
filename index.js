@@ -71,7 +71,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(function (data) { // inquirer.prompt(questions) is the func that takes in array of questions
+    inquirer.prompt(questions).then((data) => { // arrow func needed vs func format inquirer.prompt(questions) is the func that takes in array of questions
               // was not defined 
         writeToFile("README.md", generateMarkdown(data));
     });

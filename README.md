@@ -1,3 +1,10 @@
-# Professional README Generator
-
-[Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+# 
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+  [MIT License](LICENSE.md)
+  
+  
+  
+  
+  
+  
+  
