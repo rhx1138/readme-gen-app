@@ -76,14 +76,14 @@ Licences for the original source code are available at:`;
 
 // TODO: Create a function to generate markdown for README file 
 function generateMarkdown(data) {
-  return `# ${data.title} " "
-  ${renderLicenseBadge(data.license)}" " 
-  ${renderLicenseLink(data.license)}" "
-  ${data.description}" "
-  ${data.installation}" "
-  ${data.usage}" "
-  ${data.contributing}" "
-  ${data.tests}" "
+  return `# ${data.title} 
+  ${renderLicenseBadge(data.license)}\ 
+  ${renderLicenseLink(data.license)}\
+  ${data.description}\
+  ${data.installation}\
+  ${data.usage}\
+  ${data.contributing}\
+  ${data.tests}\
   ${data.questions}
   `;
 }
