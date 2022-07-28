@@ -70,7 +70,7 @@ SOFTWARE.
 Copyright (c) ${new Date().getFullYear()} ${data.author}
 
 Licences for the original source code are available at:`;
-}
+  }
 
 }
 
@@ -79,7 +79,10 @@ function generateMarkdown(data) {
   return `# ${data.title}\n 
   ${renderLicenseBadge(data.license)}\n
   ${renderLicenseLink(data.license)}\n 
-  ## Description: ${data.description}\n 
+  # Description\n 
+  ${data.description}\n 
+  # Link to Walkthrough Video\n
+  link here \n
   # Table of Contents\n
   * [Installation](#installation)\n
   * [Usage](#usage)\n
@@ -88,18 +91,20 @@ function generateMarkdown(data) {
   * [Test](#test)\n
   * [Questions](#questions)\n
 \n
-#Instillation\n
+  # Instillation\n
   ${data.installation}\n 
-  #Usage\n
+  # Usage\n
   ${data.usage}\n 
-  #Contributing\n
+  # Contributing\n
   ${data.contributing}\n 
-  #Test\n
+  # Test\n
   ${data.tests}\n 
-  #Questions\n
-  ${data.questions}
+  # Questions\n
+  ${data.questions}\n
+  
+  Github link: https://github.com/${data.user}.\n
+  Email me: ${data.email}
   `;
 }
 
 module.exports = generateMarkdown;
-
