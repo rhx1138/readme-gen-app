@@ -79,11 +79,24 @@ function generateMarkdown(data) {
   return `# ${data.title}\n 
   ${renderLicenseBadge(data.license)}\n
   ${renderLicenseLink(data.license)}\n 
-  ${data.description}\n 
+  ## Description: ${data.description}\n 
+  # Table of Contents\n
+  * [Installation](#installation)\n
+  * [Usage](#usage)\n
+  * [Contributing](#contributing)\n
+  * [License](#license)\n
+  * [Test](#test)\n
+  * [Questions](#questions)\n
+\n
+#Instillation\n
   ${data.installation}\n 
+  #Usage\n
   ${data.usage}\n 
+  #Contributing\n
   ${data.contributing}\n 
+  #Test\n
   ${data.tests}\n 
+  #Questions\n
   ${data.questions}
   `;
 }
