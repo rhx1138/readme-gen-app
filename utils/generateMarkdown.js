@@ -102,7 +102,7 @@ function generateMarkdown(data) {
   # Questions\n
   ${data.questions}\n
   
-  Github link: https://github.com/${data.user}.\n
+  Github link: https://github.com/${data.author}\n
   Email me: ${data.email}
   `;
 }

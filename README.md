@@ -34,7 +34,7 @@
  
   # Usage
 
-  To use this app, the user must clone the app and run with node.index file
+   To use this app, the user must clone the app and run with node.index file
  
   # Contributing
 
@@ -42,14 +42,14 @@
  
   # Test
 
-  NA
+  N/A
  
   # Questions
 
-  If you have any questions about this application please contact me at the following below
+   If you have any questions about this application please contact me at the following below
 
   
-  Github link: https://github.com/undefined.
+  Github link: https://github.com/rhx1138
 
   Email me: ryanjhendrix@gmail.com
   
