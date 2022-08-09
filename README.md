@@ -28,7 +28,7 @@
 
 
 
-  # Instillation
+  # Installation
 
   To run the application, the user must include Inquirer 8.2.4, a JavaScript package on NPM
  
